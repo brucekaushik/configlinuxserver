@@ -1,6 +1,10 @@
 LINUX SERVER CONFIGURATION PROJECT
 =======================================
 
+You can find the live application served at the following address:
+
+http://139.59.0.181/ 
+
 ### Allow grader login:
 
 login as the user with root priviledges and add user

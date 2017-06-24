@@ -5,6 +5,14 @@ Server Ip Address => 139.59.0.181
 
 Application Url => http://139.59.0.181/ 
 
+To Login: 
+
+ssh grader@139.59.0.181 -p 2200 -i <path to key file>
+
+Example:
+ssh grader@139.59.0.181 -p 2200 -i ~/.ssh/grader
+
+
 Summary of configurations made & Summary of Software Installed
 =======================================
 

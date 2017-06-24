@@ -1,9 +1,8 @@
 LINUX SERVER CONFIGURATION PROJECT
 =======================================
 
-You can find the live application served at the following address:
+Server Ip Address => 139.59.0.181 
 
-Server Ip Address => 139.59.0.181
 Application Url => http://139.59.0.181/ 
 
 Summary of configurations made & Summary of Software Installed

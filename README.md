@@ -138,7 +138,7 @@ sudo nano /etc/ssh/sshd_config
 In the file, search for the following entry, and change 'yes' to 'no'
 
 ```
-PasswordAuthentication no 
+PasswordAuthentication yes 
 ```
 
 Restart ssdh service:

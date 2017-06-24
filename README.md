@@ -3,7 +3,12 @@ LINUX SERVER CONFIGURATION PROJECT
 
 You can find the live application served at the following address:
 
-http://139.59.0.181/ 
+Server Ip Address => 139.59.0.181
+Application Url => http://139.59.0.181/ 
+
+Summary of configurations made & Summary of Software Installed
+=======================================
+
 
 ### Allow grader login:
 
@@ -271,4 +276,27 @@ Restart Apache:
 
 ```
 sudo service apache2 restart
+```
+
+References (articles referred for help)
+=======================================
+
+http://www.bogotobogo.com/python/Flask/Python_Flask_HelloWorld_App_with_Apache_WSGI_Ubuntu14.php
+
+https://www.linode.com/docs/web-servers/apache/apache-and-modwsgi-on-ubuntu-14-04-precise-pangolin
+
+
+Additional Help:
+=======================================
+
+Login as grader using ssh:
+
+```
+ssh grader@139.59.0.181 -p 2200 -i  <path to the ssh key file>
+```
+
+Example:
+
+```
+ssh grader@139.59.0.181 -p 2200 -i ~/.ssh/grader
 ```
